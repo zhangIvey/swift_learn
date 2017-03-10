@@ -24,6 +24,17 @@ var j = 1_2_3_4_5
 let k:Float = Float(d) + Float(e)
 
 //布尔类型
+var isTrue = true
 
+if isTrue{
+    print("true")
+}
+
+/*
+//错误写法
+if 12 {
+    print("12")
+}
+ */
 
 
