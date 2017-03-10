@@ -37,4 +37,43 @@ if 12 {
 }
  */
 
+//元组类型Tuple
+var tuple_a = (2,"adfas", "weqr")
+print("\(tuple_a)")
+
+var tuple_b = (x:"12",y:"23",z:"34")
+print("x = \(tuple_b.x)")
+print("y = \(tuple_b.y)")
+print("x = \(tuple_b.z)")
+print(tuple_b)
+
+let tuple_c:(code:Bool, tb:Int, tc:Int, td:Int) = ( true, 34, 56, 67)
+var ( isLoginResult, _ , _, _ ) = tuple_c
+if isLoginResult {
+    print("登陆成功")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
