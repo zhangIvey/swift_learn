@@ -57,25 +57,55 @@ if isLoginResult {
 /*
  
  =
+ 
+ 
  +
  -
  *
  /
  %
+ 
  -12
  +12
+ 
+ 
  ++
  --
+ 
+ 
  ||
  &&
  ！
+ 
+ 
  >
  <
+ 
+ 
  >=
  <=
  ==
  
+ 
+ +=
+ -=
+ 
+ ===
+ !==
+ 
  */
+  // 三目运算符：question ? answer1 : answer2
+var battery = 21
+var batteryCoolor:UIColor
+
+if battery > 20 {
+    batteryCoolor = UIColor.green;
+}else{
+    batteryCoolor = UIColor.red;
+}
+
+batteryCoolor = battery>20 ? UIColor.green : UIColor.red;
+
 
 
 
