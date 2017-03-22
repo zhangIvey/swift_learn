@@ -95,7 +95,7 @@ if isLoginResult {
  
  */
   // 三目运算符：question ? answer1 : answer2
-var battery = 21
+var battery = 18
 var batteryCoolor:UIColor
 
 if battery > 20 {
@@ -105,6 +105,30 @@ if battery > 20 {
 }
 
 batteryCoolor = battery>20 ? UIColor.green : UIColor.red;
+
+//区间运算符
+/**
+ 闭区间运算符
+ [a,b] a...b
+ 
+ 前闭后开区间运算符
+ [a,b)  a..<b
+ 
+ */
+
+for index in 1...10{ //就算循环体只有一行代码也要添加上大括号
+    index
+    print(index)
+}
+
+print("\n")
+
+for index in 0..<10 {
+    index
+    print(index)
+}
+
+
 
 
 
