@@ -115,6 +115,7 @@ batteryCoolor = battery>20 ? UIColor.green : UIColor.red;
 //忽略文件的第七次测试
 //忽略文件的第九次测试
 //忽略文件的第十次测试
+//忽略文件的第十一次测试
 
 
 
