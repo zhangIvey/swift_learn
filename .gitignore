@@ -89,3 +89,9 @@ fastlane/test_output
 /*.gcno
 
 # End of https://www.gitignore.io/api/swift,xcode
+
+基本语法/MyPlayground.playground/playground.xcworkspace/xcuserdata/yaoln.xcuserdatad/UserInterfaceState.xcuserstate
+
+基本语法/.DS_Store
+
+基本语法/MyPlayground.playground/playground.xcworkspace/xcuserdata/yaoln.xcuserdatad/UserInterfaceState.xcuserstate
