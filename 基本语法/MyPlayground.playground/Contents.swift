@@ -106,6 +106,7 @@ if battery > 20 {
 
 batteryCoolor = battery>20 ? UIColor.green : UIColor.red;
 
+//忽略文件的第一次测试
 
 
 
